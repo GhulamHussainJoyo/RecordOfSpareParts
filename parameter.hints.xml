@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="android.widget.TextView.addTextChangedListener(watcher)" />
+        <added pattern="androidx.core.app.NavUtils.navigateUpFromSameTask(sourceActivity)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
